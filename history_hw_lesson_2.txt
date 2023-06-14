@@ -1,0 +1,102 @@
+   0 cd /home
+   1 mkdir user1
+   2 ls
+   3 cd user1
+   4 mkdir task1
+   5 ls
+   6 cd task1
+   7 ls
+   8 touch file1.txt
+   9 ls
+  10 pwd
+  11 ls -l
+  12 ls -a
+  13 ls -l
+  14 clear
+  15 tree/home/
+  16 date
+  17 history
+  18 mkdir -p /home/user2/task2
+  19 touch /home/user2/task2/file2.txt
+  20 mkdir -p /home/user3/task3/
+  21 mkdir /home/user2/task2
+  22 ls -la /home/user2/task2/file2.txt
+  23 pwd
+  24 cd /home
+  25 ls user1
+  26 mkdir -p user3/task3
+  27 cp /home/user2/task2/file2.txt user3/task3/file3.txt
+  28 mkdir -p /user4/task4
+  29 ls
+  30 toach /home/user4/task4/filef4.txt
+  31 touch /home/user4/task4/file4.txt
+  32 mkdir -p /home/user4/task4/
+  33 toach /home/user4/task4/file4.txt
+  34 touch /home/user4/task4/file4.txt
+  35  ls -a
+  36 ls /home/
+  37 ls /home/user1/task1/file1.txt
+  38 ls /home/user2/task2/file2.txt
+  39 ls /home/user3/task3/file3.txt
+  40 ls /home/user4/task4/file.txt
+  41 ls /home/user4/task4/file4.txt
+  42 history
+  43 cp /home/user2/task2/file2.txt /tmp
+  44 ls /tmp/file2.txt
+  45 cp /home/user3/task3/file3.txt /tmp
+  46 cp /home/user2/task2/file2.txt /tmp/newfile
+  47 ls /temp/newfile
+  48 ls /tmp/newfile
+  49 mv /tmp/newfile /opt
+  50 cp /home/user2 /tmp 
+  51 ls /tmp/
+  52 mv /opt/newfile /opt/newfile.txt
+  53 mv /opt/newfile.txt /tmp/new_text
+  54 rm /tmp/file2/txt
+  55 rm /tmp/file2.txt
+  56 ls /tmp
+  57 history
+  58 history > /tmp/history.txt
+  59 export_file /tmp/history.txt
+  60 clear
+  61 mkdir -p /opt/test/Dmitri_Djourov
+  62 cd /opt/test/Dmitri_Djourov
+  63 touch /opt/test/Dmitri_Djourov/file.txt
+  64 ls
+  65 ls -l
+  66 ls -la
+  67 ls
+  68 cd
+  69 ls
+  70 pwd
+  71 cp /opt/test/Dmitri_Djourov/file.txt /tmp/file2.txt
+  72 ls
+  73 ls /tmp
+  74 ls -l /tmp
+  75 cd /opt/test/Dmitri_Djourov/
+  76 ls
+  77 rm /opt/test/Dmitri_Djourov/file.txt
+  78 ls
+  79 mkdir -p /opt/test/ivan
+  80 cd opt/test
+  81 cd
+  82 ls
+  83 mkdir -p /opt/test/ivan
+  84 ls
+  85 cd /opt/
+  86 ls
+  87 cd /test/
+  88 cd /opt/test/
+  89 ls
+  90 touch file.txt
+  91 ls
+  92 cd
+  93 cp /opt/test/file.txt /tmp/file.txt
+  94 ls /tmp/
+  95 rm -rf/opt/test/file.txt
+  96 rm -rf /opt/test/file.txt
+  97 ls temp
+  98 ls /temp
+  99 ls /tmp
+ 100 history
+ 101 history > /tmp/history_hw_2.txt
