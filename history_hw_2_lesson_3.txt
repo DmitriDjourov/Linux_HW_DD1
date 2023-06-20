@@ -1,0 +1,11 @@
+   0 cd /
+   1 mkdir home/user
+   2 mkdir home/user/start
+   3 echo "Start" > home/user/start/1.txt
+   4 date >> home/user/start/1.txt 
+   5 cat home/user/start/1.txt 
+   6 mkdir opt/task
+   7 cat home/user/start/1.txt > opt/task/start.txt
+   8 ls -al | tail -4 >> opt/task/start.txt 
+   9 cat opt/task/start.txt 
+  10 history > history_hw_2.txt
