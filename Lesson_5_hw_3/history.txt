@@ -1,0 +1,8 @@
+   0 cd /
+   1 date > date.txt
+   2 df -h >> date.txt
+   3 history | tail -n 5 >> date.txt
+   4 grep "vendor" /proc/cpuinfo >> date.txt
+   5 vi date.txt
+   6 cat date.txt
+   7 history > history.txt
