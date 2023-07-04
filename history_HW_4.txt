@@ -1,0 +1,14 @@
+   0 pwd
+   1 cd /
+   2 ls
+   3 vi /tmp/file.txt
+   4 df -h | head -n 3 >>/tmp/file.txt 
+   5 cat tmp/file.txt 
+   6 ls -la /tmp/file.txt 
+   7 chmod g+w /tmp/file.txt 
+   8 ls -la /tmp/file.txt 
+   9 chmod u-r /tmp/file.txt 
+  10 ls -la /tmp/file.txt 
+  11 chmod o+x /tmp/file.txt 
+  12 ls -la /tmp/file.txt 
+  13 history >> history_HW_4.txt
