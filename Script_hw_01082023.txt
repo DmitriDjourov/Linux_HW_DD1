@@ -1,0 +1,29 @@
+#!/bin/bash
+
+working_directory="/home/admin"
+lock_file="${working_directory}/script_lock"
+
+# Проверяем, существует ли файл блокировки
+if [ -e "${lock_file}" ]; then
+  echo "Скрипт уже запущен. Завершение выполнения."
+  exit 1
+fi
+
+# Создаем файл блокировки
+touch "${lock_file}"
+
+# ============Непосредственно скрипт задания ==================
+# Функция для создания файлов
+create_files() {
+  for i in {1..10}; do
+    number=$((i * 100))
+    date=$(date +"%d.%m.%y")
+    touch "${working_directory}/${number}.${date}"
+  done
+}
+
+create_files
+# ==============================
+
+# Удаление файла блокировки после завершения скрипта
+rm -f "${lock_file}"
